@@ -1,5 +1,5 @@
 [versions]
-agp = "8.12.2"
+agp = "8.11.0"
 kotlin = "2.0.21"
 coreKtx = "1.10.1"
 junit = "4.13.2"
@@ -9,6 +9,16 @@ appcompat = "1.6.1"
 material = "1.10.0"
 activity = "1.8.0"
 constraintlayout = "2.1.4"
+
+# Este projeto em Kotlin estava apresentando erro de Versão de Gradle, e não estava querendo rodar de jeito
+# nenhum devido a diferença de versões do gradle na minha Maquina em casa e a da Maquina da Fatec.
+# Por isso, após tanta procura, encontrei o arquivo que defina as versões dos componentes do projeto
+# incluindo a do Gradle(agp) que estava dando conflito com este projeto.
+# E para resolver este problema basta apenas trocar a versão do projeto para a versão inferior suportada
+# que o problema será resolvido.
+
+# Neste caso a versão do projeto original é a 8.12.2 e a modificada para funcionar foi a 8.11.0
+# realizando essa mudança e sincronizando, todos os outros componentes serão atualizados automaticamente
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
