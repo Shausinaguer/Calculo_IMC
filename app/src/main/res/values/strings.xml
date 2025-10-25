@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Calculo_IMC</string>
+    <string name="informe_seu_cpf">Informe seu cpf</string>
+    <string name="informe_seu_nome">Informe seu nome</string>
+    <string name="informe_sua_idade">Informe sua idade</string>
+    <string name="informe_seu_peso_kg">Informe seu peso (Kg)</string>
+    <string name="informe_sua_altura_metros">Informe sua altura (Metros)</string>
+    <string name="calcular_imc">Calcular IMC</string>
+    <string name="gravar_dados">Gravar Dados</string>
 </resources>
